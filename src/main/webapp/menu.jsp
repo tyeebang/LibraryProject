@@ -81,7 +81,7 @@ header {
 }
 
 #rental {
-	top: 160px;
+	top: 165px;
 	background-color: #f5ce42;
 	color: black;
 }
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 			<%
 				MemberVO login = (MemberVO)session.getAttribute("loginOK");
 			%>
-				<a href="/LibraryProject/index.jsp"> 처음으로 </a>
+				<a href="/LibraryProject/index.jsp" id="intro"> 처음으로 </a>
 			<%
 				if(login == null) {
 			%>
